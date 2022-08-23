@@ -1,5 +1,5 @@
 import React from "react";
-import image from "/home/figue/Development/code/phase-3/phase-3-project-3-v2/phase-3-react-project-frontend-v2/src/images/hs-2015-01m16pillarshst1.jpg"
+import image from "../images/hs-2015-01m16pillarshst1.jpg"
 
 function About() {
   return (

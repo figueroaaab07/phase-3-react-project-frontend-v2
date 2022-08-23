@@ -108,7 +108,7 @@ table {
 
 th, td {
   text-align: left;
-  padding: 16px;
+  padding: 5px;
 }
 
 tr:nth-child(even) {
@@ -116,20 +116,27 @@ tr:nth-child(even) {
 }
 
 .add-user {
-  display: flex;
-  padding-top: 25px;
+  /* display: flex; */
+  /* padding-top: 25px; */
   flex: 1;
   border-radius: 5px;
-  margin: 1px;
+  margin: 5px;
   justify-content: center;
   align-items: center;
 }
 
+.calendar {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
 .view-users {
-  display: flex;
+  /* display: flex; */
   flex: 2;
   border-radius: 5px;
-  margin: 1px;
+  margin: 20px;
   justify-content: center;
   align-items: center;
 }

@@ -41,11 +41,13 @@ function UserForm( {addUser} ) {
         <label>Last Name:</label>
         <input className="user_name" type="text" value={user.last_name} name="last_name" onChange={handleChange} /><br></br>
         <label>Date of Birth</label>
-        <Calendar
-          onChange={setDate}
-          value={date}
-          maxDate={new Date()}
-        /><br></br>
+        <div className='calendar'>
+          <Calendar
+            onChange={setDate}
+            value={date}
+            maxDate={new Date()}
+          />
+        </div>
         <button className="button-primary" type="submit" onClick={handleSubmit} >Add user</button>
       </form>
     </div>
